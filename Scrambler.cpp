@@ -36,7 +36,7 @@ string scrambling(string line, int first_offset, int second_offset ) {
 }
 int main()
 {
-    string line_2 = "1111111110000000";
+    string line_2 = "111111110000000";
     cout << scrambling(line_2, 3,5);
 
 }

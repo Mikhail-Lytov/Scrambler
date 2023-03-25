@@ -13,8 +13,8 @@ int scrambling(unsigned data, int first_offset, int second_offset ) {
         line.push_back('0' + (data & 1));
     }while (data >>= 1);
     reverse(line.begin(), line.end());
-    int input_data[15];
-    int output_data[15];
+    int *input_data = new int[line.length()];
+    int *output_data = new int[line.length()];
     int output = 0;
 
     for (int i = 0; i < line.length(); i++) {\
@@ -50,7 +50,6 @@ int scrambling(unsigned data, int first_offset, int second_offset ) {
 
 int main(){
 
-    cout << scrambling(29273,3,5); // 32640
-    cout << "\n t" <<(1 ^ 0 ^ 0);
+    cout << scrambling(32640,3,5); // 32640
     return 0;
 }

@@ -3,4 +3,4 @@ project(Project)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Project DeScrambler.cpp)
+add_executable(Project DeScrambler_int.cpp)
