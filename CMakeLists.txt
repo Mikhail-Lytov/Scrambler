@@ -3,4 +3,4 @@ project(Project)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Project AdditiveScramblers.cpp)
+add_executable(Project AdditiveScramblers_int.cpp)
