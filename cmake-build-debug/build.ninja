@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/Lytov/Desktop/Project/cmake-build-debug/
 
 build cmake_object_order_depends_target_Project: phony || CMakeFiles/Project.dir
 
-build CMakeFiles/Project.dir/DeScrambler_int.cpp.obj: CXX_COMPILER__Project_Debug C$:/Users/Lytov/Desktop/Project/DeScrambler_int.cpp || cmake_object_order_depends_target_Project
-  DEP_FILE = CMakeFiles\Project.dir\DeScrambler_int.cpp.obj.d
+build CMakeFiles/Project.dir/AdditiveScramblers.cpp.obj: CXX_COMPILER__Project_Debug C$:/Users/Lytov/Desktop/Project/AdditiveScramblers.cpp || cmake_object_order_depends_target_Project
+  DEP_FILE = CMakeFiles\Project.dir\AdditiveScramblers.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
   OBJECT_DIR = CMakeFiles\Project.dir
   OBJECT_FILE_DIR = CMakeFiles\Project.dir
@@ -63,7 +63,7 @@ build CMakeFiles/Project.dir/DeScrambler_int.cpp.obj: CXX_COMPILER__Project_Debu
 #############################################
 # Link the executable Project.exe
 
-build Project.exe: CXX_EXECUTABLE_LINKER__Project_Debug CMakeFiles/Project.dir/DeScrambler_int.cpp.obj
+build Project.exe: CXX_EXECUTABLE_LINKER__Project_Debug CMakeFiles/Project.dir/AdditiveScramblers.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Project.dir

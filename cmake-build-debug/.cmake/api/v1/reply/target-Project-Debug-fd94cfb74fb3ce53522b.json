@@ -101,7 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "DeScrambler_int.cpp",
+			"path" : "AdditiveScramblers.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
